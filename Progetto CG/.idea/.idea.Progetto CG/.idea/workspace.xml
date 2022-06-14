@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +66,7 @@
       <updated>1654706615860</updated>
       <workItem from="1654706615865" duration="2000" />
       <workItem from="1654871619383" duration="5002000" />
+      <workItem from="1655213590700" duration="6542000" />
     </task>
     <servers />
   </component>
