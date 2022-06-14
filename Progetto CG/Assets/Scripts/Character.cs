@@ -128,4 +128,10 @@ public class Character : MonoBehaviour
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
         return raycastHit2D.collider != null;
     }
+
+    // restituisce true se il personaggio è in condizione di attaccare
+    public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
+    }
 }
