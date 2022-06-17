@@ -17,10 +17,6 @@ public class Character : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private float speed = 10;
     [SerializeField] private float jumpPower = 10;
-    
-    [SerializeField] private float MaxHealth = 10;
-    [SerializeField] private float MaxStamina = 10;
-    [SerializeField] private float MaxMana = 10;
 
     private void Awake()
     {

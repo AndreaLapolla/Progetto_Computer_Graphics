@@ -11,7 +11,6 @@ public class Projectile : MonoBehaviour
     private bool hit;
     private float direction;
     private float lifeTime;
-
     private BoxCollider2D boxCollider;
 
     private void Awake()
@@ -27,12 +26,9 @@ public class Projectile : MonoBehaviour
         }
 
         float movementSpeed = speed * Time.deltaTime * direction;
-        
-        print(movementSpeed);
-        
         transform.Translate(movementSpeed, 0, 0);
-
         lifeTime += Time.deltaTime;
+        
         if (lifeTime > 5)
         {
             gameObject.SetActive(false);
@@ -52,8 +48,8 @@ public class Projectile : MonoBehaviour
         gameObject.SetActive(true);
         hit = false;
         boxCollider.enabled = true;
-
         float localScaleX = transform.localScale.x;
+        
         if (Mathf.Sign(localScaleX) != _direction)
         {
             localScaleX = -localScaleX;
