@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2 (test warrior).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_2 (test warrior).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RangedAttack.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <workItem from="1654871619383" duration="5002000" />
       <workItem from="1655213590700" duration="12645000" />
       <workItem from="1655472852460" duration="3666000" />
-      <workItem from="1655545187384" duration="1398000" />
+      <workItem from="1655545187384" duration="3788000" />
     </task>
     <servers />
   </component>
