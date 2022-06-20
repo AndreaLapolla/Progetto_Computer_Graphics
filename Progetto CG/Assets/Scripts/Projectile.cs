@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime.Tree;
 using UnityEngine;
 
+// classe per controllare gli attacchi a distanza
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
@@ -20,6 +17,7 @@ public class Projectile : MonoBehaviour
 
     private void Update()
     {
+        // caso in cui il proiettile impatti con qualcosa
         if(hit)
         {
             return;
@@ -29,18 +27,22 @@ public class Projectile : MonoBehaviour
         transform.Translate(movementSpeed, 0, 0);
         lifeTime += Time.deltaTime;
         
+        // dopo troppo tempo in aria il proiettile scompare
         if (lifeTime > 5)
         {
             gameObject.SetActive(false);
         }
     }
 
+    // funzione attivata al contatto del proiettile con qualcosa
     private void OnTriggerEnter2D(Collider2D col)
     {
         hit = true;
         boxCollider.enabled = false;
+        Deactivate();
     }
 
+    // funzione che permettere al proiettile di avere la direzione del personaggio nel momento in cui spara
     public void SetDirection(float _direction)
     {
         lifeTime = 0;
@@ -57,7 +59,7 @@ public class Projectile : MonoBehaviour
 
         transform.localScale = new Vector3(localScaleX, transform.localScale.y, transform.localScale.z);
     }
-
+    
     private void Deactivate()
     {
         gameObject.SetActive(false);

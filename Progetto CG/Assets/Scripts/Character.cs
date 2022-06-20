@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
+// classe di base del personaggio giocabile
 public class Character : MonoBehaviour
 {
     private Rigidbody2D body;
@@ -30,6 +31,7 @@ public class Character : MonoBehaviour
         playerMovement = GetComponent<Character>();
     }
 
+    // todo implementazione dash (servirà un nuovo tasto di input)
     private void Update()
     {
         // valore che indica se il personaggio si sta muovendo a destra o sinistra
@@ -83,8 +85,7 @@ public class Character : MonoBehaviour
         }
         
         // reazione al click del tasto sinistro del mouse per attaccare
-        // todo risolvere problema animazione ripetuta più volte
-        if (Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
+        if (Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
         {
             Attack();
         }
@@ -93,6 +94,8 @@ public class Character : MonoBehaviour
     }
 
     // implementazione salto
+    // todo va reso virtuale e il codice inserito nelle specifiche classi dei personaggi
+    // todo aggiungere doppio salto
     private void Jump()
     {
         // salto da terra

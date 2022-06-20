@@ -8375,7 +8375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Great_tree
+      name: grande_albero
       rect:
         serializedVersion: 2
         x: 432
@@ -8777,8 +8777,8 @@ TextureImporter:
       name: background_obj_42
       rect:
         serializedVersion: 2
-        x: 752
-        y: 1088
+        x: 922
+        y: 935
         width: 16
         height: 16
       alignment: 0
@@ -15389,7 +15389,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sfondo_erba_1
+      name: erba
       rect:
         serializedVersion: 2
         x: 160
@@ -62491,6 +62491,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: erba_con_roccia
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 735
+        width: 131
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9d683bf85312a41ba30a7cf62f5489
+      internalID: -1646997699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_obj_23
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 914
+        width: 35
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed3eecd64c16464fa3b5d16a047a58c
+      internalID: -248869106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piccolo_albero
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 735
+        width: 179
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5287c3153d716294798eda0ab120c2ff
+      internalID: 1082111842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_obj_357
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 775
+        width: 155
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bb57ab31ef5a141aa32966e9eb2a66
+      internalID: 1606057815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: erba_con_boschetto
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 735
+        width: 120
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 4, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc502bf332c9a6c43b0316372bd5439c
+      internalID: -2010517711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -62610,6 +62715,7 @@ TextureImporter:
       background_obj_1170: 4004946303769067699
       background_obj_2048: -6994806672744386855
       background_obj_2235: 1960295798371015124
+      erba_con_roccia: -1646997699
       background_obj_2559: -3338526415849611700
       background_obj_1876: -374789658885229225
       background_obj_2: 4221662784389800412
@@ -62663,13 +62769,13 @@ TextureImporter:
       background_obj_1366: -5975030661573074495
       background_obj_2378: -3482657341110353086
       background_obj_1222: -8596473545486195857
-      background_obj_2284: 2461493175645355735
-      background_obj_489: -5847353274445636912
-      background_obj_1347: -6292966632676135660
       background_obj_1856: 718568150661989477
+      background_obj_2284: 2461493175645355735
+      background_obj_1347: -6292966632676135660
       background_obj_284: -3721547771183235212
-      background_obj_2437: -7907426601036651711
       background_obj_2365: 7435104184965613159
+      background_obj_2437: -7907426601036651711
+      background_obj_489: -5847353274445636912
       background_obj_930: 4482229801746427579
       background_obj_381: 3197911819921586855
       background_obj_1449: -8761323441316329787
@@ -62970,6 +63076,7 @@ TextureImporter:
       background_obj_16: -3180943024354253587
       background_obj_841: -6647253622988312759
       background_obj_1681: -3079104360918872297
+      background_obj_357: 1606057815
       background_obj_245: -8187337436910853800
       background_obj_234: -2585669082564074887
       background_obj_1798: -3664354782688035623
@@ -63843,12 +63950,12 @@ TextureImporter:
       background_obj_657: 6949907665677061314
       background_obj_1774: 464904849529753921
       background_obj_333: 2514280433960879264
-      background_obj_387: -4690535306731999671
       background_obj_2167: 3197233844516422072
-      background_obj_903: 9009551943266556287
-      background_obj_1548: 2502691228161540853
       background_obj_1751: -7192851004562688255
       background_obj_44: -2903222661206599657
+      background_obj_1548: 2502691228161540853
+      background_obj_903: 9009551943266556287
+      background_obj_387: -4690535306731999671
       background_obj_276: 6177460442880292259
       background_obj_1143: 4618753273406930781
       background_obj_723: 2720349091512904977
@@ -63881,7 +63988,6 @@ TextureImporter:
       background_obj_1792: 5217724565942122934
       background_obj_1937: -6971269341601518915
       background_obj_2262: -7309070385953382041
-      sfondo_erba_1: -198189019283221933
       background_obj_1020: -1147082241796883005
       background_obj_1148: -8096076918688985165
       background_obj_1575: -1023995812032669050
@@ -64005,6 +64111,7 @@ TextureImporter:
       background_obj_1661: 3286695179804502912
       background_obj_2449: -704390998094550547
       background_obj_2502: 2264917178095037421
+      erba_con_boschetto: -2010517711
       background_obj_1349: -406499687114023830
       background_obj_2288: 2976942528564601153
       background_obj_407: 3013418388568967575
@@ -64186,6 +64293,7 @@ TextureImporter:
       background_obj_492: -229961305826124767
       background_obj_839: 1559346864367947738
       background_obj_1957: 6500777104231288081
+      background_obj_23: -248869106
       background_obj_475: -6620542057721078663
       background_obj_1053: -4922636571189432772
       background_obj_921: 8788189889316349970
@@ -64207,6 +64315,7 @@ TextureImporter:
       background_obj_1754: 4758590871453923323
       background_obj_1780: -1708224617531456743
       background_obj_1972: 2569395264637320774
+      grande_albero: -6330274575408100403
       background_obj_456: 6308669130128037717
       background_obj_218: -6485636711047055504
       background_obj_1974: 6097739479973619757
@@ -64311,6 +64420,7 @@ TextureImporter:
       background_obj_668: -7639357784146357377
       background_obj_778: 3595949360605588379
       background_obj_2270: -551862229002982377
+      piccolo_albero: 1082111842
       background_obj_1874: -5664175578946301176
       background_obj_705: 8204571802020073914
       background_obj_2570: -1420068302436294350
@@ -64535,7 +64645,6 @@ TextureImporter:
       background_obj_2473: 3860022364257705441
       background_obj_1429: -5801932350020340688
       background_obj_270: 123082962278050539
-      Great_tree: -6330274575408100403
       background_obj_153: 7112062028470076205
       background_obj_262: 2805450000373262877
       background_obj_445: -1650342747891017517
@@ -64827,6 +64936,7 @@ TextureImporter:
       background_obj_436: -4098310771534176214
       background_obj_646: 8603013584252721790
       background_obj_2575: 6989720361071735200
+      erba: -198189019283221933
       background_obj_2459: -2595440524373918456
       background_obj_513: -4915035986050172069
       background_obj_1515: -1864463725158217936
