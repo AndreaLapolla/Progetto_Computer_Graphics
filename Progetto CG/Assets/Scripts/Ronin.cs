@@ -7,7 +7,6 @@ public class Ronin : Character
 {
     protected override void Attack()
     {
-        anim.SetTrigger("attack");
-        cooldownTimer = 0;
+        base.Attack();
     }
 }

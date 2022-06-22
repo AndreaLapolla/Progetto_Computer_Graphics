@@ -11,8 +11,7 @@ public class Archer : Character
     // in questa classe l'attacco è a distanza
     protected override void Attack()
     {
-        anim.SetTrigger("attack");
-        cooldownTimer = 0;
+        base.Attack();
 
         arrows[0].transform.position = firePoint.position;
         arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));

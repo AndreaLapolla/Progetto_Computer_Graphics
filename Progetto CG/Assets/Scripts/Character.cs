@@ -149,6 +149,8 @@ public class Character : MonoBehaviour
     // funzione di attacco, da sovrascrivere nelle classi specializzate
     protected virtual void Attack()
     {
-        
+        // codice base uguale per tutte le classi figlie
+        anim.SetTrigger("attack");
+        cooldownTimer = 0;
     }
 }
