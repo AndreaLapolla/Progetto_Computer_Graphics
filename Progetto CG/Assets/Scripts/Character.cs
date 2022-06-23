@@ -73,7 +73,7 @@ public class Character : MonoBehaviour
             }
             
             // alla pressione della barra spaziatrice
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump();
             }

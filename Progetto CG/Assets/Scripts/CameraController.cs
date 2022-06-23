@@ -12,6 +12,7 @@ public class CameraController : MonoBehaviour
     private float lookAhead;
     private Transform player;
 
+    // bisogan stabilire all'inizio chi seguire
     private void Awake()
     {
         SetFollowedCharacter();
@@ -25,6 +26,7 @@ public class CameraController : MonoBehaviour
             Time.deltaTime * cameraSpeed);
     }
 
+    // todo questo codice va ripetuto più volte, andrebbe inserito quindi in una classe apposita per iniziare la partita e scegliere quali personaggi attivare e richiamarlo più volte
     // sceglie quale personaggio seguire e disattiva gli altri
     private void SetFollowedCharacter()
     {
@@ -40,7 +42,7 @@ public class CameraController : MonoBehaviour
             warrior.SetActive(false);
             archer.SetActive(false);
         }
-        else if (archer.activeSelf)
+        else if (archer.activeInHierarchy)
         {
             player = archer.transform;
             warrior.SetActive(false);
