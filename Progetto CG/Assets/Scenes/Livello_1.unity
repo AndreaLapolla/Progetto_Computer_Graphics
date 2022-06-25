@@ -8377,7 +8377,7 @@ MonoBehaviour:
   archerParent: {fileID: 1075361276455599532}
   archer: {fileID: 193848169}
   ronin: {fileID: 1620331508}
-  chosenCharacter: ronin
+  chosenCharacter: warrior
 --- !u!4 &1905205896
 Transform:
   m_ObjectHideFlags: 0

@@ -5,7 +5,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 // classe di base del personaggio giocabile
-// todo implementare dash
 public class Character : MonoBehaviour
 {
     protected Rigidbody2D body;
@@ -16,16 +15,17 @@ public class Character : MonoBehaviour
     protected float wallJumpCooldown;
     protected float horizontalInput;
     private float cooldownTimer = Mathf.Infinity;
-    protected int currentJumps = 0;
+    protected bool isDashing;
     
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
-    [SerializeField] private float speed;
+    [SerializeField] protected float speed;
     [SerializeField] protected float jumpPower;
     [SerializeField] private float attackCooldown;
-    [SerializeField] protected int maxNumJumps;
+    [SerializeField] protected bool canDoubleJump;
+    [SerializeField] protected bool canDash;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         // inizializzazione oggetti importanti
         body = GetComponent<Rigidbody2D>();
@@ -33,9 +33,8 @@ public class Character : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         playerMovement = GetComponent<Character>();
     }
-
-    // todo implementazione dash (servirà un nuovo tasto di input)
-    private void Update()
+    
+    protected virtual void Update()
     {
         // valore che indica se il personaggio si sta muovendo a destra o sinistra
         horizontalInput = Input.GetAxis("Horizontal");
@@ -54,54 +53,19 @@ public class Character : MonoBehaviour
                 transform.localScale.z);
         }
 
+        // istruzione per prevenire la rotazione del personaggio
+        transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+        
         // per stabuilire quale animazione attivare
         anim.SetBool("running", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
-
-        // i movimenti sono bloccati durante il cooldown del salto
-        if (wallJumpCooldown < 0.2f)
-        {
-            // movimento a destra o a sinistra a seconda se si preme D oppure A
-            body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
-
-            // se il personaggio si aggrappa alla parete
-            if (OnWall() && !IsGrounded())
-            {
-                ManageWallGrabbing();
-                
-            }
-            else
-            {
-                body.gravityScale = 7;
-            }
-            
-            // alla pressione della barra spaziatrice
-            if (Input.GetKey(KeyCode.Space))
-            {
-                Jump();
-            }
-        }
-        else
-        {
-            // si aggiunge tempo di ricarica al salto
-            wallJumpCooldown += Time.deltaTime;
-        }
         
         // reazione al click del tasto sinistro del mouse per attaccare
         if (Input.GetMouseButtonDown(0) && cooldownTimer > attackCooldown && playerMovement.CanAttack())
         {
             Attack();
         }
-
         cooldownTimer += Time.deltaTime;
-    }
-
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        if (CompareTag("Ground"))
-        {
-            currentJumps = 0;
-        }
     }
 
     // restituisce true se il personaggio è a terra
@@ -147,13 +111,17 @@ public class Character : MonoBehaviour
             body.velocity = new Vector2(body.velocity.x, jumpPower);
             // attiva l'animazione del salto
             anim.SetTrigger("jump");
-            currentJumps++;
         }
-    }
-
-    protected virtual void ManageWallGrabbing()
-    {
-        body.gravityScale = 0;
-        body.velocity = Vector2.zero;
+        else
+        {
+            // codice che implementa il doppio salto, funzionerà solo per il ronin
+            if (canDoubleJump)
+            {
+                body.velocity = new Vector2(body.velocity.x, jumpPower);
+                canDoubleJump = false;
+                // attiva l'animazione del salto
+                anim.SetTrigger("jump");
+            }
+        }
     }
 }
