@@ -37,6 +37,7 @@ public class Projectile : MonoBehaviour
     // funzione attivata al contatto del proiettile con qualcosa
     private void OnTriggerEnter2D(Collider2D col)
     {
+        // todo bisogna gestire il danno
         hit = true;
         boxCollider.enabled = false;
         Deactivate();

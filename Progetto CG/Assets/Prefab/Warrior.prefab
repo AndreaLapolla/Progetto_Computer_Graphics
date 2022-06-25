@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6114059819577289566
 Transform:
   m_ObjectHideFlags: 0
@@ -154,9 +154,10 @@ MonoBehaviour:
   wallLayer:
     serializedVersion: 2
     m_Bits: 128
-  speed: 7.5
-  jumpPower: 10
+  speed: 10
+  jumpPower: 15
   attackCooldown: 0
+  maxNumJumps: 1
 --- !u!95 &6114059819577289557
 Animator:
   serializedVersion: 4

@@ -3,22 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Archer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Archer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Archer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Archer.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1 (test archer).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2 (test warrior).unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2 (test warrior).unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,6 +91,7 @@
       <workItem from="1655736978427" duration="5013000" />
       <workItem from="1655905880288" duration="8312000" />
       <workItem from="1655976619407" duration="3509000" />
+      <workItem from="1656149476065" duration="6075000" />
     </task>
     <servers />
   </component>

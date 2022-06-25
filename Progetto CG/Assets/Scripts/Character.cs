@@ -5,22 +5,25 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 // classe di base del personaggio giocabile
+// todo implementare dash
 public class Character : MonoBehaviour
 {
-    private Rigidbody2D body;
-    protected Animator anim;
+    protected Rigidbody2D body;
+    private Animator anim;
     private BoxCollider2D boxCollider;
     private Character playerMovement;
 
-    private float wallJumpCooldown;
-    private float horizontalInput;
-    protected float cooldownTimer = Mathf.Infinity;
+    protected float wallJumpCooldown;
+    protected float horizontalInput;
+    private float cooldownTimer = Mathf.Infinity;
+    protected int currentJumps = 0;
     
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
-    [SerializeField] private float speed = 10;
-    [SerializeField] private float jumpPower = 10;
+    [SerializeField] private float speed;
+    [SerializeField] protected float jumpPower;
     [SerializeField] private float attackCooldown;
+    [SerializeField] protected int maxNumJumps;
 
     private void Awake()
     {
@@ -64,8 +67,8 @@ public class Character : MonoBehaviour
             // se il personaggio si aggrappa alla parete
             if (OnWall() && !IsGrounded())
             {
-                body.gravityScale = 0;
-                body.velocity = Vector2.zero;
+                ManageWallGrabbing();
+                
             }
             else
             {
@@ -73,7 +76,7 @@ public class Character : MonoBehaviour
             }
             
             // alla pressione della barra spaziatrice
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space))
             {
                 Jump();
             }
@@ -93,38 +96,16 @@ public class Character : MonoBehaviour
         cooldownTimer += Time.deltaTime;
     }
 
-    // implementazione salto
-    // todo va reso virtuale e il codice inserito nelle specifiche classi dei personaggi
-    // todo aggiungere doppio salto
-    private void Jump()
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        // salto da terra
-        if (IsGrounded())
+        if (CompareTag("Ground"))
         {
-            body.velocity = new Vector2(body.velocity.x, jumpPower);
-            // attiva l'animazione del salto
-            anim.SetTrigger("jump");
-        }
-        // implementazione salto a parete
-        else if (OnWall() && !IsGrounded())
-        {
-            if (horizontalInput == 0)
-            {
-                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
-                transform.localScale = new Vector3(
-                    -Mathf.Sign(transform.localScale.x) * Mathf.Abs(transform.localScale.x), 
-                    transform.localScale.y, transform.localScale.z);
-            }
-            else
-            {
-                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
-            }
-            wallJumpCooldown = 0;
+            currentJumps = 0;
         }
     }
 
     // restituisce true se il personaggio è a terra
-    private bool IsGrounded()
+    protected bool IsGrounded()
     {
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center, 
             boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
@@ -132,7 +113,7 @@ public class Character : MonoBehaviour
     }
     
     // restituisce true se il perosnaggio tocca il muro
-    private bool OnWall()
+    protected bool OnWall()
     {
         RaycastHit2D raycastHit2D = Physics2D.BoxCast(boxCollider.bounds.center, 
             boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 
@@ -147,10 +128,32 @@ public class Character : MonoBehaviour
     }
     
     // funzione di attacco, da sovrascrivere nelle classi specializzate
+    // sarà uguale per ronin e guerriero ma non per l'arciere in quanto a distanza
     protected virtual void Attack()
     {
         // codice base uguale per tutte le classi figlie
         anim.SetTrigger("attack");
         cooldownTimer = 0;
+    }
+    
+    // funzione di salto, da sovrascrivere nelle classi specializzate
+    // sarà uguale per l'arciere e il guerriero mentre il ronin potrà eseguire il doppio salto ma non il
+    // salto a parete
+    protected virtual void Jump()
+    {
+        // salto da terra oppure 
+        if (IsGrounded())
+        {
+            body.velocity = new Vector2(body.velocity.x, jumpPower);
+            // attiva l'animazione del salto
+            anim.SetTrigger("jump");
+            currentJumps++;
+        }
+    }
+
+    protected virtual void ManageWallGrabbing()
+    {
+        body.gravityScale = 0;
+        body.velocity = Vector2.zero;
     }
 }

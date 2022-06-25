@@ -16,4 +16,26 @@ public class Archer : Character
         arrows[0].transform.position = firePoint.position;
         arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
+    
+    protected override void Jump()
+    {
+        base.Jump();
+        
+        // implementazione salto a parete
+        if (OnWall() && !IsGrounded())
+        {
+            if (horizontalInput == 0)
+            {
+                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
+                transform.localScale = new Vector3(
+                    -Mathf.Sign(transform.localScale.x) * Mathf.Abs(transform.localScale.x), 
+                    transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                body.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);
+            }
+            wallJumpCooldown = 0;
+        }
+    }
 }
