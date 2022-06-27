@@ -6854,12 +6854,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_129
+      name: trappola_spuntoni
       rect:
         serializedVersion: 2
         x: 928
         y: 944
-        width: 16
+        width: 66
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7715,13 +7715,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_170
+      name: piattaforma_testa
       rect:
         serializedVersion: 2
         x: 944
-        y: 912
+        y: 896
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -33282,6 +33282,7 @@ TextureImporter:
       mainlevbuild_297: -8823804998191543338
       mainlevbuild_326: -4366040853633269011
       mainlevbuild_751: 2996902666049629444
+      piattaforma_testa: -6869139575339289751
       mainlevbuild_379: -6412084603674749503
       mainlevbuild_731: -6090946676282847245
       mainlevbuild_955: -5817081968832419618
@@ -33312,7 +33313,6 @@ TextureImporter:
       mainlevbuild_490: -1959337536430762834
       mainlevbuild_1088: 153815581329945362
       mainlevbuild_1041: 5229295763286302790
-      mainlevbuild_170: -6869139575339289751
       mainlevbuild_597: -7587953149801739252
       mainlevbuild_191: -9123833027992490936
       mainlevbuild_364: 3961105478582409388
@@ -33509,7 +33509,7 @@ TextureImporter:
       mainlevbuild_852: 7395688232760777430
       mainlevbuild_1215: 4592329285285226601
       mainlevbuild_454: 8567538854450072728
-      mainlevbuild_129: 2115758850729327155
+      mainlevbuild_897: 4790317565341047100
       mainlevbuild_435: -3808273792939960277
       mainlevbuild_1240: 7151878458838066173
       mainlevbuild_30: 8768440425142752653
@@ -33522,7 +33522,6 @@ TextureImporter:
       mainlevbuild_206: 7210913197092638425
       mainlevbuild_1079: 6960650424429530697
       mainlevbuild_1293: -514856992724360776
-      mainlevbuild_897: 4790317565341047100
       mainlevbuild_67: 7097634703160681251
       mainlevbuild_2: 4011826581710594722
       mainlevbuild_1034: -8651218731268745040
@@ -33797,6 +33796,7 @@ TextureImporter:
       mainlevbuild_706: 8297075956521084381
       mainlevbuild_740: 5421914340892881808
       mainlevbuild_880: -624233005318550433
+      trappola_spuntoni: 2115758850729327155
       mainlevbuild_974: -2314351875218752881
       mainlevbuild_1167: 2551719530017336804
       mainlevbuild_997: 4750887562064658384

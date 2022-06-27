@@ -10,24 +10,24 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Image currentHealthBar;
     [SerializeField] private GameObject textValue;
 
-    private Health playerHealth;
+    private Health _playerHealth;
 
     private void Start()
     {
-        playerHealth = characterSelector.GetComponent<CharacterSelector>().GetPlayedCharacter().GetComponent<Health>();
-        totalHealthBar.fillAmount = playerHealth.currentHealth / playerHealth.GetStartingHealth();
+        _playerHealth = characterSelector.GetComponent<CharacterSelector>().GetPlayedCharacter().GetComponent<Health>();
+        totalHealthBar.fillAmount = _playerHealth.CurrentHealth / _playerHealth.GetStartingHealth();
     }
 
     private void Update()
     {
-        currentHealthBar.fillAmount = playerHealth.currentHealth / playerHealth.GetStartingHealth();
+        currentHealthBar.fillAmount = _playerHealth.CurrentHealth / _playerHealth.GetStartingHealth();
         SetTextValue();
     }
 
     // funzione per impostare sul testo il valore della salute attuale rispetto al totale 
     private void SetTextValue()
     {
-        textValue.GetComponent<TextMeshProUGUI>().text = playerHealth.currentHealth + " / " + 
-                                                         playerHealth.GetStartingHealth() + " HP";
+        textValue.GetComponent<TextMeshProUGUI>().text = _playerHealth.CurrentHealth + " / " + 
+                                                         _playerHealth.GetStartingHealth() + " HP";
     }
 }

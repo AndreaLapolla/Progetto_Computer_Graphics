@@ -3,13 +3,76 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherAttack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherAttack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherDie.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherDie.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherHurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherHurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherRun.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherRun.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninAttack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninAttack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninDie.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninDie.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninHurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninHurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninPlayer.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninPlayer.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninRun.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninRun.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorDie.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorDie.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorHurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorHurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorRun.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorRun.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ArcherParent.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ArcherParent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -84,6 +147,7 @@
       <workItem from="1655976619407" duration="3509000" />
       <workItem from="1656149476065" duration="6075000" />
       <workItem from="1656166958959" duration="8457000" />
+      <workItem from="1656339058982" duration="10762000" />
     </task>
     <servers />
   </component>
