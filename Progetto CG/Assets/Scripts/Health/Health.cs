@@ -11,6 +11,9 @@ public class Health : MonoBehaviour
     [SerializeField] private float iFramesDuration;
     [SerializeField] private int numberOfFlashes;
 
+    [Header("Components")] 
+    [SerializeField] private Behaviour[] components;
+
     private SpriteRenderer _spriteRenderer;
 
     public float CurrentHealth {get; private set; }
@@ -51,9 +54,14 @@ public class Health : MonoBehaviour
             if (!_dead)
             {
                 _animator.SetTrigger("die");
-                GetComponent<Character>().enabled = false;
+                
+                // disattivazione dei componenti
+                foreach (Behaviour component in components)
+                {
+                    component.enabled = false;
+                }
+                
                 _dead = true;
-                // todo ci sarà qualcos'altro da fare per gestire la fine della partita 
             }
             
         }
@@ -77,6 +85,11 @@ public class Health : MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
         Physics2D.IgnoreLayerCollision(8, 9, false);
+    }
+    
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
     
     public float GetStartingHealth()

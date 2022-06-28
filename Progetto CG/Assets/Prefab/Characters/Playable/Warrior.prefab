@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6114059819577289566
 Transform:
   m_ObjectHideFlags: 0
@@ -195,6 +195,8 @@ MonoBehaviour:
   startingHealth: 10
   iFramesDuration: 1
   numberOfFlashes: 3
+  components:
+  - {fileID: 6114059819577289554}
 --- !u!96 &7471534150126485021
 TrailRenderer:
   serializedVersion: 2

@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &1075361276167579049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -354,6 +355,8 @@ MonoBehaviour:
   startingHealth: 3
   iFramesDuration: 1
   numberOfFlashes: 3
+  components:
+  - {fileID: 1075361276280508675}
 --- !u!1 &1075361276478226023
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,6 +562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &4594192413414491662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -706,6 +710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &3500882052149682034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -853,6 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &2648016134390486986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1000,6 +1006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &1427180099955964303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1147,6 +1154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &3733388857380431925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1294,6 +1302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &5004838990516324784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1441,6 +1450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &4850568421854012603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1588,6 +1598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &8558552511010487477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1735,6 +1746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  damage: 1
 --- !u!61 &7622873600249233679
 BoxCollider2D:
   m_ObjectHideFlags: 0

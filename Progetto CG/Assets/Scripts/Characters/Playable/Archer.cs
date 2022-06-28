@@ -40,15 +40,6 @@ public class Archer : Character
         }
     }
     
-    // implementazione attacco a distanza
-    protected override void Attack()
-    {
-        base.Attack();
-
-        arrows[0].transform.position = firePoint.position;
-        arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
-    }
-    
     // implementazione salto singolo e a parete
     protected override void Jump()
     {
@@ -70,5 +61,12 @@ public class Archer : Character
             }
             WallJumpCooldown = 0;
         }
+    }
+
+    // lanciata durante l'animazione
+    private void FireArrow()
+    {
+        arrows[0].transform.position = firePoint.position;
+        arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
 }

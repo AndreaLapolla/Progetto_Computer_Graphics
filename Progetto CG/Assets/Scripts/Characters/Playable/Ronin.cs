@@ -54,7 +54,7 @@ public class Ronin : Character
     protected override void Attack()
     {
         base.Attack();
-        // todo bisogna gestire il danno, come in warrior
+        // todo bisogna gestire il danno, come in warrior come nel meleeEnemy
     }
     
     // implementazione del dash

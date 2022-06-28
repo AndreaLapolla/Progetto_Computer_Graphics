@@ -4,6 +4,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private float damage;
     
     private bool _hit;
     private float _direction;
@@ -37,9 +38,14 @@ public class Projectile : MonoBehaviour
     // funzione attivata al contatto del proiettile con qualcosa
     private void OnTriggerEnter2D(Collider2D col)
     {
-        // todo bisogna gestire il danno
         _hit = true;
         _boxCollider.enabled = false;
+
+        if (col.tag == "Enemy")
+        {
+            col.GetComponent<Health>().TakeDamage(damage);
+        }
+        
         Deactivate();
     }
 

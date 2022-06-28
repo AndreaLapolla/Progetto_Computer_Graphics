@@ -3,76 +3,611 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherDie.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherDie.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherHurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherHurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherJump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherJump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherPlayer.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherRun.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Archer/ArcherRun.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninDie.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninDie.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninHurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninHurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninJump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninJump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninPlayer.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninPlayer.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninRun.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Ronin/RoninRun.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorDie.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorDie.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorHurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorHurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorIdle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorIdle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorJump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorJump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorPlayer.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorRun.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Warrior/WarriorRun.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ArcherParent.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/ArcherParent.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ronin.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Warrior.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_BarrelRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_ChestRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_CoinRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_HeartRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarBlue_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarBlue_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGold_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarGreen_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarPurple_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_JarRed_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionBlue_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGold_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionGreen_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionPurple_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/Light Outline/S_ItemLightOutline_PotionRed_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_BarrelRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_ChestRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_CoinRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_HeartRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarBlue_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGold_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarGreen_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarPurple_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_JarRed_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionBlue_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGold_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionGreen_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionPurple_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_00.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Pixel Item Pack/No Outline/S_ItemNoOutline_PotionRed_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/BlockFlash.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/BlockFlash_AnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_AnimController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Block.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_BlockNoEffect.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Death.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_DeathNoBlood.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Fall.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Hurt.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_IdleBlock.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_LedgeGrab.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Roll.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/HeroKnight_WallSlide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/SlideDust.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Animations/SlideDust.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero Knight - Pixel Art/Environment/Walls_noFriction.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-A8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-B7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-C9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/attack-D9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/jump-attack-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Attacks/kick-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Climb/climb-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Dead/dead-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-A4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-idle-B4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-A4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Hit/hit-with-weapon-B4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Idle/idle-with-weapon-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-A7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/attack-in-air-B6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Jump/jump-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Roll/roll-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/Run/run-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-activ-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-activ-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-activ-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-activ-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-center-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-center-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-center-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-center-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-up-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-up-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-up-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/ShieldBlock/shield-block-up-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/Sprites/Player/walk-with-weapon-9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hero and Opponents/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Archer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Archer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ronin.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Warrior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectiles/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -148,6 +683,7 @@
       <workItem from="1656149476065" duration="6075000" />
       <workItem from="1656166958959" duration="8457000" />
       <workItem from="1656339058982" duration="10762000" />
+      <workItem from="1656426186256" duration="11268000" />
     </task>
     <servers />
   </component>
