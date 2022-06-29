@@ -1,11 +1,8 @@
 using UnityEngine;
 
 // classe per definire le funzionalità specifiche dell'arciere
-public class Archer : Character
+public class Archer : RangedCharacter
 {
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject[] arrows;
-    
     protected override void Update()
     {
         base.Update();
@@ -61,12 +58,5 @@ public class Archer : Character
             }
             WallJumpCooldown = 0;
         }
-    }
-
-    // lanciata durante l'animazione
-    private void FireArrow()
-    {
-        arrows[0].transform.position = firePoint.position;
-        arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
 }

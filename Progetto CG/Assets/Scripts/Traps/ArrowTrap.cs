@@ -4,6 +4,7 @@ using UnityEngine;
 // classe per gestire la trappola scaglia-freccie
 public class ArrowTrap : MonoBehaviour
 {
+    [Header("Arrow Trap Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] private Transform firepoint;
     [SerializeField] private GameObject[] arrows;

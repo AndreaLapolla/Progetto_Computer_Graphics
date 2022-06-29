@@ -5,7 +5,10 @@ using UnityEngine.UI;
 // classe per gestire lo stato della barra di salute
 public class HealthBar : MonoBehaviour
 {
+    [Header("Character Selector")]
     [SerializeField] private GameObject characterSelector;
+    
+    [Header("Health Bar Components")]
     [SerializeField] private Image totalHealthBar;
     [SerializeField] private Image currentHealthBar;
     [SerializeField] private GameObject textValue;

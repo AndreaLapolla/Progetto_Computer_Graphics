@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 // classe per gestire la sorveglianza
@@ -13,16 +12,17 @@ public class EnemyPatrol : MonoBehaviour
     
     [Header("Movement Parameters")] 
     [SerializeField] private float speed;
-    private Vector3 _initScale;
-    private bool _movingLeft;
 
     [Header("Idle Behaviour")]
     [SerializeField] private float idleDuration;
-    private float _idleTimer;
-    
+
     [Header("Animator")]
     [SerializeField] private Animator _animator;
 
+    private Vector3 _initScale;
+    private bool _movingLeft;
+    private float _idleTimer;
+    
     private void Awake()
     {
         _initScale = enemy.localScale;

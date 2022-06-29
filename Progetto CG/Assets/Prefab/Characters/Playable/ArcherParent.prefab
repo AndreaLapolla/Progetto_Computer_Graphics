@@ -100,7 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &1075361276167579049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -258,9 +257,10 @@ MonoBehaviour:
     m_Bits: 128
   speed: 10
   jumpPower: 15
-  attackCooldown: 0
   canDoubleJump: 0
   canDash: 0
+  attackCooldown: 0.5
+  damage: 1
   firePoint: {fileID: 1075361277420650022}
   arrows:
   - {fileID: 1075361276167580244}
@@ -562,7 +562,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &4594192413414491662
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -710,7 +709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &3500882052149682034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -858,7 +856,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &2648016134390486986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1006,7 +1003,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &1427180099955964303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1154,7 +1150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &3733388857380431925
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1302,7 +1297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &5004838990516324784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1450,7 +1444,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &4850568421854012603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1598,7 +1591,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &8558552511010487477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1746,7 +1738,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  damage: 1
 --- !u!61 &7622873600249233679
 BoxCollider2D:
   m_ObjectHideFlags: 0

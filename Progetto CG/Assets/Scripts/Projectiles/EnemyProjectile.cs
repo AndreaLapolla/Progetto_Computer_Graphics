@@ -3,6 +3,7 @@ using UnityEngine;
 // classe per gestire il danno inflitto dai proiettili nemici
 public class EnemyProjectile : EnemyDamage
 {
+    [Header("Enemy Projectile Movement Parameters")]
     [SerializeField] private float speed;
     [SerializeField] private float resetTime;
 

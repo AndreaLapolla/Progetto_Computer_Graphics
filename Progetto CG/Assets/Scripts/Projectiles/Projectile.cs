@@ -3,9 +3,10 @@ using UnityEngine;
 // classe per controllare gli attacchi a distanza
 public class Projectile : MonoBehaviour
 {
+    [Header("Projectile Movement")]
     [SerializeField] private float speed;
-    [SerializeField] private float damage;
     
+    private float _damage;
     private bool _hit;
     private float _direction;
     private float _lifeTime;
@@ -43,17 +44,18 @@ public class Projectile : MonoBehaviour
 
         if (col.tag == "Enemy")
         {
-            col.GetComponent<Health>().TakeDamage(damage);
+            col.GetComponent<Health>().TakeDamage(_damage);
         }
         
         Deactivate();
     }
 
     // funzione che permettere al proiettile di avere la direzione del personaggio nel momento in cui spara
-    public void SetDirection(float direction)
+    public void SetDirection(float direction, float damage)
     {
         _lifeTime = 0;
-        this._direction = direction;
+        _direction = direction;
+        _damage = damage;
         gameObject.SetActive(true);
         _hit = false;
         _boxCollider.enabled = true;

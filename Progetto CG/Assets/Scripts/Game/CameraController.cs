@@ -3,7 +3,10 @@ using UnityEngine;
 // classe per controllare il movimento della telecamera
 public class CameraController : MonoBehaviour
 {
+    [Header("Character Selector")]
     [SerializeField] private GameObject characterSelector;
+    
+    [Header("Camera Parameters")]
     [SerializeField] private float aheadDistance;
     [SerializeField] private float cameraSpeed;
 

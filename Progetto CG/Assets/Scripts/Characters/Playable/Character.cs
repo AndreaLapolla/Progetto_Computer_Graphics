@@ -7,19 +7,24 @@ public class Character : MonoBehaviour
     private Animator _animator;
     private BoxCollider2D _boxCollider;
     private Character _playerMovement;
-
     protected float WallJumpCooldown;
     protected float HorizontalInput;
     private float _cooldownTimer = Mathf.Infinity;
     protected bool IsDashing;
     
+    [Header("Layer Mask")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
+    
+    [Header("Movement Parameters")]
     [SerializeField] protected float speed;
     [SerializeField] protected float jumpPower;
-    [SerializeField] private float attackCooldown;
     [SerializeField] protected bool canDoubleJump;
     [SerializeField] protected bool canDash;
+    
+    [Header("Attack Parameters")]
+    [SerializeField] private float attackCooldown;
+    [SerializeField] protected float damage;
 
     protected virtual void Awake()
     {
@@ -84,12 +89,13 @@ public class Character : MonoBehaviour
     // restituisce true se il personaggio è in condizione di attaccare
     private bool CanAttack()
     {
-        return HorizontalInput == 0 && IsGrounded() && !OnWall();
+        //return HorizontalInput == 0 && IsGrounded() && !OnWall();
+        return IsGrounded() && !OnWall();
     }
     
     // funzione di attacco, da sovrascrivere nelle classi specializzate
     // sarà uguale per ronin e guerriero ma non per l'arciere in quanto a distanza
-    protected virtual void Attack()
+    private void Attack()
     {
         // codice base uguale per tutte le classi figlie
         _animator.SetTrigger("attack");

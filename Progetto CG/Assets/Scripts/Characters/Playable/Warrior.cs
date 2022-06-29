@@ -2,12 +2,11 @@ using System.Collections;
 using UnityEngine;
 
 // classe per definire le funzionalità specifiche del guerriero
-public class Warrior : Character
+public class Warrior : MeleeCharacter
 {
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
-    
     private TrailRenderer _trailRenderer;
 
     protected override void Awake()
@@ -60,13 +59,6 @@ public class Warrior : Character
         {
             StartCoroutine(Dash());
         }
-    }
-    
-    // implementazione attacco in mischia
-    protected override void Attack()
-    {
-        base.Attack();
-        // todo bisogna gestire il danno
     }
 
     // implementazione salto singolo e a parete

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // classe per controllare i nemici che attaccano in mischia
-public class MeleeEnemy : MonoBehaviour
+public class MeleeEnemy : Enemy
 {
     [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
@@ -18,7 +18,6 @@ public class MeleeEnemy : MonoBehaviour
     private float _cooldownTimer = Mathf.Infinity;
     private Animator _animator;
     private Health _playerHealth;
-
     private EnemyPatrol _enemyPatrol;
 
     private void Awake()
@@ -69,7 +68,7 @@ public class MeleeEnemy : MonoBehaviour
                 boxCollider2D.bounds.size.y, boxCollider2D.bounds.size.z));
     }
 
-    // funzione per gestire l'attacco del nemico al giocatore
+    // funzione per gestire l'attacco del nemico al giocatore, chiamata da animazione
     private void DamagePlayer()
     {
         if (PlayerInsight())

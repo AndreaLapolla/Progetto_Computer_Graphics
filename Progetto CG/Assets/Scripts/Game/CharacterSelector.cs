@@ -3,10 +3,13 @@ using UnityEngine;
 // classe che determina il personaggio da usare
 public class CharacterSelector : MonoBehaviour
 {
+    [Header("Characters Components")]
     [SerializeField] private GameObject warrior;
     [SerializeField] private GameObject archerParent;
     [SerializeField] private GameObject archer;
     [SerializeField] private GameObject ronin;
+    
+    [Header("Stringa Provvisoria")]
     [SerializeField] private string chosenCharacter;
 
     private void Awake()

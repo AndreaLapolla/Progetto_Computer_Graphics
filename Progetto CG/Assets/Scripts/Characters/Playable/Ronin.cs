@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 // classe per definire le funzionalità specifiche del ronin
-public class Ronin : Character
+public class Ronin : MeleeCharacter
 {
     private float dashingPower = 10f;
     private float dashingTime = 0.2f;
@@ -48,13 +48,6 @@ public class Ronin : Character
         {
             StartCoroutine(Dash());
         }
-    }
-    
-    // implementazione attacco in mischia
-    protected override void Attack()
-    {
-        base.Attack();
-        // todo bisogna gestire il danno, come in warrior come nel meleeEnemy
     }
     
     // implementazione del dash

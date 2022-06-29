@@ -15,7 +15,6 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
 
     private SpriteRenderer _spriteRenderer;
-
     public float CurrentHealth {get; private set; }
     private Animator _animator;
     private bool _dead;
@@ -87,6 +86,7 @@ public class Health : MonoBehaviour
         Physics2D.IgnoreLayerCollision(8, 9, false);
     }
     
+    // funzione attivata da animazione
     private void Deactivate()
     {
         gameObject.SetActive(false);
