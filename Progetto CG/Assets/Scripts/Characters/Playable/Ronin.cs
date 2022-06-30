@@ -41,6 +41,7 @@ public class Ronin : MeleeCharacter
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            SoundManager.Instance.PlaySound(jumpSound);
         }
         
         // implementazione dash
@@ -53,6 +54,7 @@ public class Ronin : MeleeCharacter
     // implementazione del dash
     private IEnumerator Dash()
     {
+        SoundManager.Instance.PlaySound(jumpSound);
         canDash = false;
         IsDashing = true;
         float originaGravity = Rigidbody2D.gravityScale;

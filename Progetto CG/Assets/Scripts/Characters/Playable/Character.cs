@@ -25,6 +25,10 @@ public class Character : MonoBehaviour
     [Header("Attack Parameters")]
     [SerializeField] private float attackCooldown;
     [SerializeField] protected float damage;
+    
+    [Header("Sounds")] 
+    [SerializeField] protected AudioClip[] attackSounds;
+    [SerializeField] protected AudioClip jumpSound;
 
     protected virtual void Awake()
     {
@@ -89,15 +93,15 @@ public class Character : MonoBehaviour
     // restituisce true se il personaggio è in condizione di attaccare
     private bool CanAttack()
     {
-        //return HorizontalInput == 0 && IsGrounded() && !OnWall();
-        return IsGrounded() && !OnWall();
+        return HorizontalInput == 0 && IsGrounded() && !OnWall();
     }
     
     // funzione di attacco, da sovrascrivere nelle classi specializzate
     // sarà uguale per ronin e guerriero ma non per l'arciere in quanto a distanza
+    // codice base uguale per tutte le classi figlie
     private void Attack()
     {
-        // codice base uguale per tutte le classi figlie
+        SoundManager.Instance.PlaySound(attackSounds[0]);
         _animator.SetTrigger("attack");
         _cooldownTimer = 0;
     }

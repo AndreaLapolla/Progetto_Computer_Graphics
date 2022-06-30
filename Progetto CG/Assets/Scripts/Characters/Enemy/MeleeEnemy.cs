@@ -32,8 +32,9 @@ public class MeleeEnemy : Enemy
 
         if (PlayerInsight())
         {
-            if (_cooldownTimer >= attackCooldown)
+            if (_cooldownTimer >= attackCooldown && _playerHealth.CurrentHealth > 0)
             {
+                SoundManager.Instance.PlaySound(attackSounds[0]);
                 _cooldownTimer = 0;
                 _animator.SetTrigger("meleeAttack");
             }

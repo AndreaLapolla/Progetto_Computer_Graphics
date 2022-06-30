@@ -145,4 +145,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84ae527035c1ec240a524cb602396ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trapSounds:
+  - {fileID: 8300000, guid: 522e3ab7bac86e443bd5721d8933b455, type: 3}
   damage: 1

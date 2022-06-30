@@ -386,7 +386,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32bad061972765a4bbfe48585e1cc7c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 1
+  trapSounds:
+  - {fileID: 8300000, guid: d19fbf2ffc3058c47b2470da79cc5431, type: 3}
+  attackCooldown: 2
   firepoint: {fileID: 4855041993264145135}
   arrows:
   - {fileID: 4855041993532754799}

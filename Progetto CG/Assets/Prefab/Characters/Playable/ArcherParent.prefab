@@ -261,6 +261,10 @@ MonoBehaviour:
   canDash: 0
   attackCooldown: 0.5
   damage: 1
+  attackSounds:
+  - {fileID: 8300000, guid: 470d35b1638f4234e895ca3e65fb00dc, type: 3}
+  - {fileID: 8300000, guid: a31d3d19acf252a4989e16e695393b1e, type: 3}
+  jumpSound: {fileID: 8300000, guid: c9ccf6cbea8ec0a479e28ccb1f474e5e, type: 3}
   firePoint: {fileID: 1075361277420650022}
   arrows:
   - {fileID: 1075361276167580244}
@@ -357,6 +361,8 @@ MonoBehaviour:
   numberOfFlashes: 3
   components:
   - {fileID: 1075361276280508675}
+  deathSound: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
+  hurtSound: {fileID: 8300000, guid: b3266b78b59e8f348a9e503484cf6e02, type: 3}
 --- !u!1 &1075361276478226023
 GameObject:
   m_ObjectHideFlags: 0

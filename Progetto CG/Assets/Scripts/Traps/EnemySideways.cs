@@ -1,7 +1,7 @@
 using UnityEngine;
 
-// classe per gestire il danno inflitto dalle trappole
-public class EnemySideways : MonoBehaviour
+// classe per gestire il danno inflitto dalle trappole spuntoni
+public class EnemySideways : Trap
 {
     [SerializeField] private float damage;
 
@@ -9,6 +9,10 @@ public class EnemySideways : MonoBehaviour
     {
         if (col.tag == "Player")
         {
+            if (trapSounds.Length >= 1)
+            {
+                SoundManager.Instance.PlaySound(trapSounds[0]);
+            }
             col.GetComponent<Health>().TakeDamage(damage);
         }
     }

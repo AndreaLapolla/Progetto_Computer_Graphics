@@ -46,6 +46,11 @@ public class Warrior : MeleeCharacter
             if (Input.GetKey(KeyCode.Space))
             {
                 Jump();
+
+                if (Input.GetKey(KeyCode.Space) && IsGrounded())
+                {
+                    SoundManager.Instance.PlaySound(jumpSound);
+                }
             }
         }
         else
@@ -87,6 +92,7 @@ public class Warrior : MeleeCharacter
     // implementazione del dash
     private IEnumerator Dash()
     {
+        SoundManager.Instance.PlaySound(jumpSound);
         canDash = false;
         IsDashing = true;
         float originaGravity = Rigidbody2D.gravityScale;

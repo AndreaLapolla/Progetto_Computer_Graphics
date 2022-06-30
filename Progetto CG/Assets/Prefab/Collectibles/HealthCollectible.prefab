@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthValue: 1
+  pickUpSound: {fileID: 8300000, guid: 96fec6467438c2b4d93f850c9c4dbe7f, type: 3}
 --- !u!61 &6180594446900089115
 BoxCollider2D:
   m_ObjectHideFlags: 0

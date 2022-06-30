@@ -114,6 +114,9 @@ MonoBehaviour:
   canDash: 1
   attackCooldown: 0.5
   damage: 2
+  attackSounds:
+  - {fileID: 8300000, guid: c5dea467677cdd449a7f8190f8453783, type: 3}
+  jumpSound: {fileID: 8300000, guid: c9ccf6cbea8ec0a479e28ccb1f474e5e, type: 3}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512
@@ -204,6 +207,8 @@ MonoBehaviour:
   numberOfFlashes: 3
   components:
   - {fileID: 6962811540720913533}
+  deathSound: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
+  hurtSound: {fileID: 8300000, guid: b3266b78b59e8f348a9e503484cf6e02, type: 3}
 --- !u!96 &4085132007725923269
 TrailRenderer:
   serializedVersion: 2

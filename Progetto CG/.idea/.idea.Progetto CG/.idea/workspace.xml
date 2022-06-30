@@ -3,29 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Collectibles/HealthCollectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Collectibles/HealthCollectible.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/FireTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/FireTrap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyPatrol.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MeleeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MeleeEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/RangedEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/RangedEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Archer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Archer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/RangedCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/RangedCharacter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Warrior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CameraController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectiles/EnemyProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectiles/EnemyProjectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectiles/Projectile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/EnemySideways.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/EnemySideways.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -57,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
-    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -103,6 +99,7 @@
       <workItem from="1656339058982" duration="10762000" />
       <workItem from="1656426186256" duration="11268000" />
       <workItem from="1656491126695" duration="3187000" />
+      <workItem from="1656596955260" duration="9851000" />
     </task>
     <servers />
   </component>

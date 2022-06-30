@@ -2,7 +2,7 @@
 using UnityEngine;
 
 // classe per gestire la trappola scaglia-freccie
-public class ArrowTrap : MonoBehaviour
+public class ArrowTrap : Trap
 {
     [Header("Arrow Trap Attack Parameters")]
     [SerializeField] private float attackCooldown;
@@ -24,7 +24,7 @@ public class ArrowTrap : MonoBehaviour
     private void Attack()
     {
         _cooldownTimer = 0;
-
+        SoundManager.Instance.PlaySound(trapSounds[0]);
         arrows[FindArrow()].transform.position = firepoint.position;
         arrows[FindArrow()].GetComponent<EnemyProjectile>().ActiavteProjectile();
     }

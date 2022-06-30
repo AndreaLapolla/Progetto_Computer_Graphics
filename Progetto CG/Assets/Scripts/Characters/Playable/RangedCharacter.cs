@@ -10,6 +10,7 @@ public class RangedCharacter : Character
     // lanciata durante l'animazione
     private void FireArrow()
     {
+        SoundManager.Instance.PlaySound(attackSounds[1]);
         arrows[0].transform.position = firePoint.position;
         arrows[0].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x), damage);
     }
