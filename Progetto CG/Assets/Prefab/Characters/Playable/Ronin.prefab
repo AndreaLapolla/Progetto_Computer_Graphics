@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 6962811540720913529}
   - component: {fileID: 4231949587298076706}
   - component: {fileID: 4085132007725923269}
+  - component: {fileID: 2809339966868690481}
   m_Layer: 8
   m_Name: Ronin
   m_TagString: Player
@@ -209,6 +210,7 @@ MonoBehaviour:
   - {fileID: 6962811540720913533}
   deathSound: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
   hurtSound: {fileID: 8300000, guid: b3266b78b59e8f348a9e503484cf6e02, type: 3}
+  idleAnimationName: RoninIdle
 --- !u!96 &4085132007725923269
 TrailRenderer:
   serializedVersion: 2
@@ -317,3 +319,16 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 0
+--- !u!114 &2809339966868690481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6962811540720913534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6328e894bdd012d4aacfe9e80d603567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointSound: {fileID: 8300000, guid: 96fec6467438c2b4d93f850c9c4dbe7f, type: 3}

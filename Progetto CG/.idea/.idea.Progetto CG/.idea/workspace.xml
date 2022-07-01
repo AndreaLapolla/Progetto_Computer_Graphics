@@ -3,25 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Archer/ArcherDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Ronin/RoninDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Playable/Warrior/WarriorDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PF SET1/Sliced/decorative_obj.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PF SET1/Sliced/decorative_obj.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Ronin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/Warrior.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Collectibles/HealthCollectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Collectibles/HealthCollectible.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/FireTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/FireTrap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MeleeEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MeleeEnemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/RangedCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/RangedCharacter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Ronin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Warrior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/Warrior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/EnemySideways.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/EnemySideways.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -100,6 +94,7 @@
       <workItem from="1656426186256" duration="11268000" />
       <workItem from="1656491126695" duration="3187000" />
       <workItem from="1656596955260" duration="9851000" />
+      <workItem from="1656683580141" duration="6628000" />
     </task>
     <servers />
   </component>

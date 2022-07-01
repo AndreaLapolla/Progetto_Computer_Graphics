@@ -17,6 +17,9 @@ public class Health : MonoBehaviour
     [Header("Sounds")] 
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
+
+    [Header("Animation Names")] 
+    [SerializeField] private string idleAnimationName;
     
 
     private SpriteRenderer _spriteRenderer;
@@ -58,14 +61,14 @@ public class Health : MonoBehaviour
             // muore
             if (!_dead)
             {
-                _animator.SetTrigger("die");
-                
                 // disattivazione dei componenti
                 foreach (Behaviour component in components)
                 {
                     component.enabled = false;
                 }
                 
+                _animator.SetBool("grounded", true);
+                _animator.SetTrigger("die");
                 _dead = true;
 
                 if (deathSound != null)
@@ -75,13 +78,29 @@ public class Health : MonoBehaviour
             }
         }
     }
-
+    
     // funzione per restituire salute
     public void AddHealth(float value)
     {
         CurrentHealth = Mathf.Min(CurrentHealth + value, startingHealth);
     }
 
+    // funzione per implementare il respawn del personaggio
+    public void Respawn()
+    {
+        _dead = false;
+        AddHealth(startingHealth);
+        _animator.ResetTrigger("die");
+        _animator.Play(idleAnimationName);
+        StartCoroutine(Invulnerability());
+        
+        // riattivazione dei componenti
+        foreach (Behaviour component in components)
+        {
+            component.enabled = true;
+        }
+    }
+    
     // funzione per gestire l'invulnerabilità post danno e generando un effetto lampeggiante
     private IEnumerator Invulnerability()
     {

@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 1075361276280508685}
   - component: {fileID: 1075361276280508686}
   - component: {fileID: 911773334217907885}
+  - component: {fileID: 7002003700406362415}
   m_Layer: 8
   m_Name: Archer
   m_TagString: Player
@@ -363,6 +364,20 @@ MonoBehaviour:
   - {fileID: 1075361276280508675}
   deathSound: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
   hurtSound: {fileID: 8300000, guid: b3266b78b59e8f348a9e503484cf6e02, type: 3}
+  idleAnimationName: ArcherIdle
+--- !u!114 &7002003700406362415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075361276280508681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6328e894bdd012d4aacfe9e80d603567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointSound: {fileID: 8300000, guid: 96fec6467438c2b4d93f850c9c4dbe7f, type: 3}
 --- !u!1 &1075361276478226023
 GameObject:
   m_ObjectHideFlags: 0
