@@ -1,15 +1,37 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// classe serve per passare da una scena all'altra
+// classe serve per passare da una scena all'altra, gestendo in punto di arrivo
 public class LoadingManager : MonoBehaviour
 {
-    // todo migliarare il codice per permettere la navigazione
-    private void Update()
+    [Header("Sounds")] 
+    [SerializeField] private AudioClip levelEndSound;
+    
+    private const int MaxSceneIndex = 3;
+
+    // al raggiungimento del traguaro si passerà al prossimo livello, o al menu iniziale
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (col.tag == "Player")
         {
-            //SceneManager.LoadScene(1);
+            SoundManager.Instance.PlaySound(levelEndSound);
+            StartCoroutine(EndLevel(1));
+        }
+    }
+
+    private IEnumerator EndLevel(float waitTime)
+    {
+        var nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        yield return new WaitForSeconds(waitTime);
+        
+        if (nextSceneIndex <= MaxSceneIndex)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }

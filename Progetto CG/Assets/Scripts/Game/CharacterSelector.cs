@@ -8,9 +8,6 @@ public class CharacterSelector : MonoBehaviour
     [SerializeField] private GameObject archerParent;
     [SerializeField] private GameObject archer;
     [SerializeField] private GameObject ronin;
-    
-    [Header("Stringa Provvisoria")]
-    [SerializeField] private string chosenCharacter;
 
     private void Awake()
     {
@@ -24,7 +21,7 @@ public class CharacterSelector : MonoBehaviour
     public GameObject GetPlayedCharacter()
     {
         GameObject player;
-        switch (chosenCharacter)
+        switch (Menu.SelectedCharacter)
         {
             case "warrior":
             {
@@ -46,7 +43,6 @@ public class CharacterSelector : MonoBehaviour
             }
             default:
             {
-                print("errore inserimento nome persoanggio, verrà usato warrior di default");
                 warrior.SetActive(true);
                 player = warrior;
                 break;

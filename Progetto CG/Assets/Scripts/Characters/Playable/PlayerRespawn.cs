@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 // classe per gestire il respawn del personaggio
