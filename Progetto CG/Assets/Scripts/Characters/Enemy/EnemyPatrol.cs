@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 // classe per gestire la sorveglianza
 public class EnemyPatrol : MonoBehaviour
@@ -16,8 +17,9 @@ public class EnemyPatrol : MonoBehaviour
     [Header("Idle Behaviour")]
     [SerializeField] private float idleDuration;
 
+    [FormerlySerializedAs("_animator")]
     [Header("Animator")]
-    [SerializeField] private Animator _animator;
+    [SerializeField] private Animator animator;
 
     private Vector3 _initScale;
     private bool _movingLeft;
@@ -30,7 +32,7 @@ public class EnemyPatrol : MonoBehaviour
 
     private void OnDisable()
     {
-        _animator.SetBool("moving", false);
+        animator.SetBool("moving", false);
     }
 
     // in update si controlla quando il nemico ha incontrato uno dei due limiti e in tal caso
@@ -66,7 +68,7 @@ public class EnemyPatrol : MonoBehaviour
     {
         _idleTimer = 0;
         
-        _animator.SetBool("moving", true);
+        animator.SetBool("moving", true);
         enemy.localScale = new Vector3(Mathf.Abs(_initScale.x) * direction, _initScale.y, _initScale.z);
         enemy.position = new Vector3(enemy.position.x + Time.deltaTime * direction * speed, 
             enemy.position.y, enemy.position.z);
@@ -75,7 +77,7 @@ public class EnemyPatrol : MonoBehaviour
     // gestione del passaggio da running a idle
     private void DirectionChange()
     {
-        _animator.SetBool("moving", false);
+        animator.SetBool("moving", false);
         
         _idleTimer += Time.deltaTime;
         if (_idleTimer > idleDuration)

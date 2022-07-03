@@ -6859,7 +6859,7 @@ TextureImporter:
         serializedVersion: 2
         x: 928
         y: 944
-        width: 66
+        width: 64
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6917,12 +6917,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_132
+      name: trappola_spuntoni_corta
       rect:
         serializedVersion: 2
-        x: 976
+        x: 960
         y: 944
-        width: 16
+        width: 31
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -7736,13 +7736,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_171
+      name: piattaforma_corpo
       rect:
         serializedVersion: 2
         x: 960
-        y: 912
-        width: 16
-        height: 16
+        y: 896
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10088,13 +10088,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_283
+      name: ostacolo_scala_base
       rect:
         serializedVersion: 2
         x: 16
-        y: 800
-        width: 16
-        height: 16
+        y: 721
+        width: 32
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10214,12 +10214,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_289
+      name: ostacolo_alto_parete
       rect:
         serializedVersion: 2
         x: 368
-        y: 800
-        width: 16
+        y: 768
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -10256,13 +10256,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_291
+      name: ostacolo_alto_pavimento
       rect:
         serializedVersion: 2
         x: 400
-        y: 800
-        width: 16
-        height: 16
+        y: 784
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10424,13 +10424,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_299
+      name: ostacolo_scala_pavimento
       rect:
         serializedVersion: 2
-        x: 16
+        x: 15
         y: 784
-        width: 16
-        height: 16
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10613,13 +10613,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_308
+      name: ostacolo_alto_angolo
       rect:
         serializedVersion: 2
-        x: 384
+        x: 368
         y: 784
-        width: 16
-        height: 16
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10634,13 +10634,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_309
+      name: ostacolo_alto_corpo
       rect:
         serializedVersion: 2
         x: 400
-        y: 784
-        width: 16
-        height: 16
+        y: 752
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10718,12 +10718,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_313
+      name: ostacolo_scala_corpo
       rect:
         serializedVersion: 2
         x: 16
         y: 768
-        width: 16
+        width: 31
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -11579,13 +11579,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mainlevbuild_354
+      name: ostacolo_alto_base
       rect:
         serializedVersion: 2
         x: 368
-        y: 752
-        width: 16
-        height: 16
+        y: 720
+        width: 32
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -32578,7 +32578,6 @@ TextureImporter:
       mainlevbuild_176: 1826274150120557526
       mainlevbuild_441: 828591696735168052
       mainlevbuild_1105: 6569792458420678807
-      mainlevbuild_299: -8522013168896005203
       mainlevbuild_1288: 3711898870270545193
       mainlevbuild_930: -524667605670633408
       mainlevbuild_645: 890135621049419308
@@ -32716,6 +32715,7 @@ TextureImporter:
       mainlevbuild_785: -3483231029496559705
       mainlevbuild_604: -3414608434311945054
       mainlevbuild_774: -8234509885815558418
+      ostacolo_alto_parete: -5934064798750974238
       mainlevbuild_585: -6298863751947395240
       mainlevbuild_250: 8390786061719531713
       mainlevbuild_526: -4996244275127729607
@@ -32779,6 +32779,7 @@ TextureImporter:
       mainlevbuild_74: 3044398042023039788
       mainlevbuild_1334: -4535184967135402133
       mainlevbuild_192: 5496585252812717183
+      ostacolo_alto_pavimento: -3154593161161676794
       mainlevbuild_182: -640677406949493403
       mainlevbuild_577: 5575153067834454517
       mainlevbuild_678: -1883650096517809942
@@ -32854,6 +32855,7 @@ TextureImporter:
       mainlevbuild_494: 1490866203463806830
       mainlevbuild_873: 4539313522589825752
       mainlevbuild_1330: 7789175426944176020
+      piattaforma_corpo: -2568180223741255568
       mainlevbuild_698: 2222873650790868510
       mainlevbuild_781: 1110971826899726024
       mainlevbuild_994: -4614229682589038589
@@ -32881,6 +32883,7 @@ TextureImporter:
       mainlevbuild_1061: 7411593886679036435
       mainlevbuild_391: -4536719461484925450
       mainlevbuild_877: -1457836187624235175
+      ostacolo_alto_base: -4436750782758906874
       mainlevbuild_401: 7302283200214940744
       mainlevbuild_458: 8129283233758541730
       mainlevbuild_1204: -3817119878128079174
@@ -32922,6 +32925,7 @@ TextureImporter:
       mainlevbuild_799: 1924062502881861923
       mainlevbuild_1269: 3771028157810471534
       mainlevbuild_1306: -1913506402327698305
+      ostacolo_scala_corpo: 7671180164547241780
       mainlevbuild_822: 1563999386423594962
       mainlevbuild_229: -134874656038029924
       mainlevbuild_488: -1699485112979747860
@@ -32941,12 +32945,12 @@ TextureImporter:
       mainlevbuild_515: -6948264491090538576
       mainlevbuild_1305: 1435527684347290079
       mainlevbuild_363: -7099736525020163208
-      mainlevbuild_171: -2568180223741255568
+      mainlevbuild_1202: -7102244668055602423
       mainlevbuild_1232: 5456448433616309644
       mainlevbuild_764: -211108771325494588
       mainlevbuild_252: -5199324009736117121
       mainlevbuild_750: -4529023008210659363
-      mainlevbuild_1202: -7102244668055602423
+      mainlevbuild_1320: 2434219734216600277
       mainlevbuild_227: -3062046696245447305
       mainlevbuild_522: 7466384229751588389
       mainlevbuild_321: -7644336671420115328
@@ -32954,7 +32958,6 @@ TextureImporter:
       mainlevbuild_538: -6028264513908813703
       mainlevbuild_329: 2030206083013902579
       mainlevbuild_551: 5119003892006396254
-      mainlevbuild_1320: 2434219734216600277
       mainlevbuild_310: -5388877628414714026
       mainlevbuild_545: -7368142644785854424
       mainlevbuild_992: 1824275088255290551
@@ -33127,17 +33130,16 @@ TextureImporter:
       mainlevbuild_863: -3430781771168538962
       mainlevbuild_247: -5569660763206454745
       mainlevbuild_682: -5252681805003725803
-      mainlevbuild_283: 7805003064105288778
-      mainlevbuild_1043: -7116979899087018963
       mainlevbuild_743: -7251358998265446969
-      mainlevbuild_1158: 3060598968982914919
+      mainlevbuild_1043: -7116979899087018963
       mainlevbuild_755: 4833988627332093101
+      mainlevbuild_1158: 3060598968982914919
+      mainlevbuild_971: 6613799927425243426
       mainlevbuild_180: -8667179122611184369
       mainlevbuild_420: -4948645267857097203
       mainlevbuild_611: 4778873511984446613
       mainlevbuild_1076: -1705773686896945126
       mainlevbuild_554: 4211414106309023775
-      mainlevbuild_971: 6613799927425243426
       mainlevbuild_1113: 3225116913796748529
       mainlevbuild_113: 2284413661362311607
       mainlevbuild_316: -850746935392006170
@@ -33189,7 +33191,6 @@ TextureImporter:
       mainlevbuild_721: 6971655906408157560
       mainlevbuild_481: 3067959940607547395
       mainlevbuild_1265: -5970064853142561999
-      mainlevbuild_313: 7671180164547241780
       mainlevbuild_1186: -2647126597384695961
       mainlevbuild_21: -898266508491088363
       mainlevbuild_1046: 3753703395533162518
@@ -33232,12 +33233,12 @@ TextureImporter:
       mainlevbuild_583: 3417948698684570453
       mainlevbuild_681: 8736596552053125710
       mainlevbuild_418: 1671886651964668766
-      mainlevbuild_308: 413650789984389888
       mainlevbuild_439: -7853584892454040823
+      mainlevbuild_982: 8570647061486589756
       mainlevbuild_836: 8180769625166642215
       mainlevbuild_59: -2180457891328654851
       mainlevbuild_1161: -4158498837266990128
-      mainlevbuild_982: 8570647061486589756
+      mainlevbuild_1221: -1669147535086860265
       mainlevbuild_56: 4778794286218837914
       mainlevbuild_337: 6585301096690899940
       mainlevbuild_549: 7411290437773485481
@@ -33266,7 +33267,6 @@ TextureImporter:
       mainlevbuild_470: 65032709770956927
       mainlevbuild_1299: 1524328602547581494
       mainlevbuild_1135: 7368506989849621420
-      mainlevbuild_1221: -1669147535086860265
       mainlevbuild_915: 8863831879274704435
       mainlevbuild_606: 7720459013392907812
       mainlevbuild_1254: -3822452696307143836
@@ -33294,12 +33294,12 @@ TextureImporter:
       mainlevbuild_430: 7701016063979694200
       mainlevbuild_568: -6482979530711250032
       mainlevbuild_895: 2366317361930092735
+      ostacolo_alto_corpo: -29713423255216745
       mainlevbuild_356: 7160186068583993676
       mainlevbuild_193: 1166398394563356966
       mainlevbuild_570: -8516970879612648494
       mainlevbuild_69: 5981800252108750602
       mainlevbuild_131: 7965221746292824749
-      mainlevbuild_132: 1197445662342216289
       mainlevbuild_922: -8280709061636112448
       mainlevbuild_937: -4084032755238767017
       mainlevbuild_357: 2833386525161639083
@@ -33382,7 +33382,6 @@ TextureImporter:
       mainlevbuild_528: -5696396940052302122
       mainlevbuild_565: 6467087529999317199
       mainlevbuild_225: -4433577435424104970
-      mainlevbuild_291: -3154593161161676794
       mainlevbuild_1278: -1990083094153646732
       mainlevbuild_1346: 8126279235708728907
       mainlevbuild_804: 8885621947260749377
@@ -33399,11 +33398,13 @@ TextureImporter:
       mainlevbuild_1148: -4379779948918861339
       mainlevbuild_243: -8548067705933190488
       mainlevbuild_640: 4937568976033789760
+      ostacolo_alto_angolo: 413650789984389888
       mainlevbuild_882: 7129777104673846619
       mainlevbuild_12: -5629698620501372720
       mainlevbuild_540: 7738939060785255952
       mainlevbuild_546: -5001111827912576544
       mainlevbuild_705: 5795256828809989214
+      trappola_spuntoni_corta: 1197445662342216289
       mainlevbuild_1173: 4434814600348236481
       mainlevbuild_82: 4570965039170396820
       mainlevbuild_286: -3401945599851305505
@@ -33415,9 +33416,7 @@ TextureImporter:
       mainlevbuild_1040: 2183218999892131175
       mainlevbuild_386: -9172059708253513794
       mainlevbuild_680: -8876718794084332470
-      mainlevbuild_309: -29713423255216745
       mainlevbuild_282: 8147514425439806286
-      mainlevbuild_354: -4436750782758906874
       mainlevbuild_158: -3620572977450790538
       mainlevbuild_236: -7420701680308607944
       mainlevbuild_256: -2099246198106215295
@@ -33455,7 +33454,7 @@ TextureImporter:
       mainlevbuild_86: 5711493614962157448
       mainlevbuild_137: 3380610738826897902
       mainlevbuild_1044: -6702133627523456551
-      mainlevbuild_289: -5934064798750974238
+      mainlevbuild_1229: 5498482117146593213
       mainlevbuild_542: -2514746665117688235
       mainlevbuild_405: 5183702660634928987
       mainlevbuild_771: 1542668893427832528
@@ -33470,7 +33469,6 @@ TextureImporter:
       mainlevbuild_1069: -8517162744835607848
       mainlevbuild_985: -8075709275985636372
       mainlevbuild_872: -8469730984474583562
-      mainlevbuild_1229: 5498482117146593213
       mainlevbuild_332: 5560344291478076544
       mainlevbuild_1300: -4446524741949895902
       mainlevbuild_1226: 3575566418242585284
@@ -33569,6 +33567,7 @@ TextureImporter:
       mainlevbuild_927: -2207774706182159249
       mainlevbuild_632: 292603741809650146
       mainlevbuild_936: -6061467915840537544
+      ostacolo_scala_pavimento: -8522013168896005203
       mainlevbuild_748: 8087834700098513016
       mainlevbuild_876: 6171878598539508965
       mainlevbuild_106: 8695372017929839026
@@ -33771,6 +33770,7 @@ TextureImporter:
       mainlevbuild_474: 5100307553060326809
       mainlevbuild_948: 3248886867026032407
       mainlevbuild_1115: -1621204425613783657
+      ostacolo_scala_base: 7805003064105288778
       mainlevbuild_518: 4747726022109104451
       mainlevbuild_300: 4229983124779097593
       mainlevbuild_475: 5944774928465362841

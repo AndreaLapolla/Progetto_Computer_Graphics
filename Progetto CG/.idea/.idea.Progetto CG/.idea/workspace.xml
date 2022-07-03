@@ -4,23 +4,13 @@
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gradients/Gold.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Gradients/Gold.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PF SET1/Sliced/mainlevbuild.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Playable/ArcherParent.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Collectibles/CheckPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Collectibles/CheckPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/PlayerRespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/PlayerRespawn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/LoadingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/LoadingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyPatrol.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyPatrol.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +92,8 @@
       <workItem from="1656596955260" duration="9851000" />
       <workItem from="1656683580141" duration="6628000" />
       <workItem from="1656773256128" duration="6343000" />
+      <workItem from="1656860663334" duration="725000" />
+      <workItem from="1656862784352" duration="4217000" />
     </task>
     <servers />
   </component>
