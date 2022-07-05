@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 // classe per gestire il main menu
@@ -7,6 +8,7 @@ public class Menu : MonoBehaviour
     // todo implementare controllo volume
 
     public static string SelectedCharacter;
+    public AudioMixer audioMixer;
     
     // funzione per passare alla scena successiva
     private void PlayGame()
@@ -36,5 +38,11 @@ public class Menu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    // funzione per gestire il volume
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
     }
 }
