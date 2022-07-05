@@ -125,4 +125,9 @@ public class Health : MonoBehaviour
     {
         return startingHealth;
     }
+
+    public void RefillHealth()
+    {
+        CurrentHealth = startingHealth;
+    }
 }
