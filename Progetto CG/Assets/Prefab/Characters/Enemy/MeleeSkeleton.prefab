@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 7421448951360621296}
   - component: {fileID: 7421448951360621303}
   - component: {fileID: 7421448951360621300}
-  - component: {fileID: 7583890953687202278}
   m_Layer: 9
   m_Name: MeleeSkeleton
   m_TagString: Enemy
@@ -119,7 +118,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.2284233, y: -0.18192515}
@@ -154,6 +153,7 @@ MonoBehaviour:
   - {fileID: 7421448951360621300}
   deathSound: {fileID: 8300000, guid: 0a14b81c9eeb97d42861fbdd686e65da, type: 3}
   hurtSound: {fileID: 8300000, guid: 38409f9445b30cf4c8071a75e5a423f3, type: 3}
+  idleAnimationName: 
 --- !u!114 &7421448951360621300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,16 +176,3 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &7583890953687202278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7421448951360621198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f04cfdbda83e5ee4fa8fd696e0c32b82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1

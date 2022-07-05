@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8203037403249055371}
   - component: {fileID: 8203037403249055372}
   - component: {fileID: 8203037403249055375}
-  - component: {fileID: 9085492362137724317}
   m_Layer: 9
   m_Name: EvilSlime
   m_TagString: Enemy
@@ -119,7 +118,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0474329, y: -0.35359788}
@@ -170,23 +169,10 @@ MonoBehaviour:
   attackSounds:
   - {fileID: 8300000, guid: 6eb72c75e0fcdc04b905b225912096e7, type: 3}
   attackCooldown: 2
-  range: 2
+  range: 1.1
   damage: 2
-  colliderDistance: 0.45
+  colliderDistance: 0.43
   boxCollider2D: {fileID: 8203037403249055371}
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
---- !u!114 &9085492362137724317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8203037403249055477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f04cfdbda83e5ee4fa8fd696e0c32b82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
