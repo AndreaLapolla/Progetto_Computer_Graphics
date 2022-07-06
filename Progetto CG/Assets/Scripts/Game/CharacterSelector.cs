@@ -43,8 +43,8 @@ public class CharacterSelector : MonoBehaviour
             }
             default:
             {
-                warrior.SetActive(true);
-                player = warrior;
+                ronin.SetActive(true);
+                player = ronin;
                 break;
             }
         }

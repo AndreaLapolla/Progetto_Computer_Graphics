@@ -34,15 +34,6 @@ public class Health : MonoBehaviour
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
-    private void Update()
-    {
-        // prova
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            TakeDamage(1);
-        }
-    }
     
     // funzione in cui si stabilisce se i danni sono fatali oppure no
     public void TakeDamage(float damage)

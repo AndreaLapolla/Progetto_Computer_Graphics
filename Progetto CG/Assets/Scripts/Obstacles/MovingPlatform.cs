@@ -14,8 +14,8 @@ public class MovingPlatform : MonoBehaviour
 
     [Header("Movement Type")] 
     [SerializeField] private string movement;
+    [SerializeField] private bool movingBack;
     
-    private bool _movingBack;
     private float _idleTimer;
     private Transform _platformTransform;
 
@@ -42,7 +42,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void MoveHorizontally()
     {
-        if (_movingBack)
+        if (movingBack)
         {
             if (_platformTransform.position.x >= limit1Transform.position.x)
             {
@@ -68,7 +68,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void MoveVertically()
     {
-        if (_movingBack)
+        if (movingBack)
         {
             if (_platformTransform.position.y >= limit1Transform.position.y)
             {
@@ -116,7 +116,7 @@ public class MovingPlatform : MonoBehaviour
         _idleTimer += Time.deltaTime;
         if (_idleTimer > idleDuration)
         {
-            _movingBack = !_movingBack;
+            movingBack = !movingBack;
         }
     }
 

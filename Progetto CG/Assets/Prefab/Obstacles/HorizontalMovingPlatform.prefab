@@ -404,7 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8690666545289567404}
   m_Layer: 6
-  m_Name: MovingPlatform
+  m_Name: HorizontalMovingPlatform
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
