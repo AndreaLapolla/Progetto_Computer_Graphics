@@ -4,12 +4,15 @@ using UnityEngine;
 public class DeathBringerIdle : StateMachineBehaviour
 {
     [Header("Boss Movement Parameters")]
-    [SerializeField] private float speed = 2.5f;
-    [SerializeField] private float attackRange = 3f;
+    [SerializeField] private float meleeAttackRange = 3f;
+    [SerializeField] private float meleeAttackCoolDown = 2f;
+    [SerializeField] private float spellAttackRange = 10f;
+    [SerializeField] private float spellAttackCoolDown = 3f;
     
     private Transform _playerTransform;
     private Rigidbody2D _rigidbody2D;
     private Boss _boss;
+    private float _cooldwnTimer;
     
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -23,21 +26,34 @@ public class DeathBringerIdle : StateMachineBehaviour
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         _boss.LookAtPlayer();
+
+        _cooldwnTimer += Time.deltaTime;
         
-        if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) > attackRange)
+        if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) >= spellAttackRange)
         {
-            // condizione di per iniziare a muoversi verso il giocatore
-            animator.SetBool("moving", true);
-            Vector2 target = new Vector2(_playerTransform.position.x, _rigidbody2D.position.y);
-            Vector2 newPosition = Vector2.MoveTowards(_rigidbody2D.position, target, 
-                speed * Time.fixedDeltaTime);
-            _rigidbody2D.MovePosition(newPosition);
+            if (_cooldwnTimer >= spellAttackCoolDown)
+            {
+                // condizione di attacco magico
+                animator.SetTrigger("spell");
+                _cooldwnTimer = 0;
+            }
         }
-        else if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) <= attackRange)
+        else
         {
-            // condizione di attacco
-            animator.SetBool("moving", false);
-            animator.SetTrigger("meleeAttack");
+            if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) > meleeAttackRange)
+            {
+                // condizione di per iniziare a muoversi verso il giocatore
+                animator.SetBool("moving", true);
+            }
+            else
+            {
+                if (_cooldwnTimer >= meleeAttackCoolDown)
+                {
+                    // condizione di attacco in mischia
+                    animator.SetTrigger("meleeAttack");
+                    _cooldwnTimer = 0;
+                }
+            }
         }
     }
 
@@ -45,17 +61,6 @@ public class DeathBringerIdle : StateMachineBehaviour
     public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("meleeAttack");
+        animator.ResetTrigger("spell");
     }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

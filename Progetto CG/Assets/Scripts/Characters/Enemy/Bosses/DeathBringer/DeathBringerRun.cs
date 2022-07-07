@@ -5,7 +5,8 @@ public class DeathBringerRun : StateMachineBehaviour
 {
     [Header("Boss Movement Parameters")]
     [SerializeField] private float speed = 2.5f;
-    [SerializeField] private float attackRange = 3f;
+    [SerializeField] private float meleeAttackRange = 3f;
+    [SerializeField] private float spellAttackRange = 10f;
     
     private Transform _playerTransform;
     private Rigidbody2D _rigidbody2D;
@@ -31,7 +32,9 @@ public class DeathBringerRun : StateMachineBehaviour
         _rigidbody2D.MovePosition(newPosition);
         
         // condizione di attacco
-        if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) <= attackRange)
+        if (Vector2.Distance(_playerTransform.position, _rigidbody2D.position) <= meleeAttackRange 
+            || 
+            Vector2.Distance(_playerTransform.position, _rigidbody2D.position) >= spellAttackRange)
         {
             animator.SetBool("moving", false);
         }
@@ -42,16 +45,4 @@ public class DeathBringerRun : StateMachineBehaviour
     {
         
     }
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that processes and affects root motion
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

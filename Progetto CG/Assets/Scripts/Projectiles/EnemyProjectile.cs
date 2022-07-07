@@ -22,7 +22,7 @@ public class EnemyProjectile : EnemyDamage
         }
     }
 
-    public void ActiavteProjectile()
+    public void ActivateProjectile()
     {
         _lifeTime = 0;
         gameObject.SetActive(true);

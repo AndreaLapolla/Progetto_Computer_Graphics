@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 // classe per gestire i comportamenti fondamentali di un boss
@@ -8,7 +7,17 @@ public class Boss : MonoBehaviour
     [SerializeField] private GameObject characterSelector;
     
     [Header("Flip")]
-    [SerializeField] private bool isFlipped = false;
+    [SerializeField] private bool isFlipped;
+
+    [Header("Boss Melee Attack")] 
+    [SerializeField] private Vector3 attackOffset;
+    [SerializeField] private float attackRange = 2.9f;
+    [SerializeField] private int meleeAttackDamage = 1;
+    [SerializeField] private LayerMask playerMask;
+    
+    [Header("Spell Attack Parameters")]
+    [SerializeField] private GameObject spell;
+    [SerializeField] private int spellAttackDamage = 1;
     
     private Transform _playerTransform;
 
@@ -35,5 +44,28 @@ public class Boss : MonoBehaviour
             transform.Rotate(0f, 180f, 0f);
             isFlipped = true;
         }
+    }
+
+    // funzione per gestire l'attacco in mischia, chiamato da animazione
+    public void MeleeAttack()
+    {
+        Vector3 position = transform.position;
+        position += transform.right * attackOffset.x;
+        position += transform.up * attackOffset.y;
+
+        Collider2D collider2DInfo = Physics2D.OverlapCircle(position, attackRange, playerMask);
+        if (collider2DInfo != null)
+        {
+            collider2DInfo.GetComponent<Health>().TakeDamage(meleeAttackDamage);
+        }
+    }
+
+    // funzione per gestire l'attacco magico, chiamato da animazione
+    public void CastSpell()
+    {
+        spell.SetActive(true);
+        spell.transform.position = new Vector3(_playerTransform.position.x, _playerTransform.position.y + 1.8f, 
+            spell.transform.position.z);
+        spell.GetComponent<DeathBringerSpell>().SpellAttack(spellAttackDamage, playerMask);
     }
 }

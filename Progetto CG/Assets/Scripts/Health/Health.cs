@@ -57,8 +57,12 @@ public class Health : MonoBehaviour
                 {
                     component.enabled = false;
                 }
-                
-                _animator.SetBool("grounded", true);
+
+                if (gameObject.tag == "Player")
+                {
+                    _animator.SetBool("grounded", true);
+                }
+
                 _animator.SetTrigger("die");
                 _dead = true;
 

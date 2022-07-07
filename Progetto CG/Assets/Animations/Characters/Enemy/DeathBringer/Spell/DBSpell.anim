@@ -47,7 +47,7 @@ AnimationClip:
       value: {fileID: 6332021275310799178, guid: 1914d95466e3d4341a618c35a56d5f82, type: 3}
     - time: 1.0833334
       value: {fileID: 3976960032240018065, guid: 1914d95466e3d4341a618c35a56d5f82, type: 3}
-    - time: 1.15
+    - time: 1.1666666
       value: {fileID: 7215576535354308736, guid: 1914d95466e3d4341a618c35a56d5f82, type: 3}
     - time: 1.25
       value: {fileID: -216337917939532555, guid: 1914d95466e3d4341a618c35a56d5f82, type: 3}
@@ -112,7 +112,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.5833333
-    functionName: 
+    functionName: DealSpellDamage
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.25
+    functionName: DeactivateSpell
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

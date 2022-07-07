@@ -3,21 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/EvilSlime.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/EvilSlime.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/MeleeSkeleton.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Obstacles/MovingPlatform.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Obstacles/MovingPlatform.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBCast.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBCast.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBMeleeAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBMeleeAttack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/DBPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/Spell/DBSpell.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/Spell/DBSpell.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/Spell/DBSpellPlayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Characters/Enemy/DeathBringer/Spell/DBSpellPlayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/DeathBringer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/DeathBringer.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/RangedEnemy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/RangedEnemy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/CharacterSelector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/Boss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/Boss.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/DeathBringer/DeathBringerIdle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/DeathBringer/DeathBringerIdle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/DeathBringer/DeathBringerRun.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/DeathBringer/DeathBringerRun.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/MovingPlatform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectiles/EnemyProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectiles/EnemyProjectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +110,8 @@
       <workItem from="1657030951913" duration="4851000" />
       <workItem from="1657041310372" duration="334000" />
       <workItem from="1657116811133" duration="7052000" />
+      <workItem from="1657187762466" duration="223000" />
+      <workItem from="1657200802518" duration="10702000" />
     </task>
     <servers />
   </component>

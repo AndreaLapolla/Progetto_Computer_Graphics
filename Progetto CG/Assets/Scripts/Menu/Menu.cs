@@ -5,8 +5,6 @@ using UnityEngine.SceneManagement;
 // classe per gestire il main menu
 public class Menu : MonoBehaviour
 {
-    // todo implementare controllo volume
-
     public static string SelectedCharacter;
     public AudioMixer audioMixer;
     
