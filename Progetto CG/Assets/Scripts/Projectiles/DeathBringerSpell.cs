@@ -3,8 +3,11 @@ using UnityEngine;
 // classe per gestire l'attacco magico del boss death bringer, diverso dalle freccie
 public class DeathBringerSpell : MonoBehaviour
 {
+    [Header("Game Objects")]
     [SerializeField] private Animator animator;
     [SerializeField] private BoxCollider2D boxCollider2D;
+    
+    [Header("Spell Attack Parameters")]
     [SerializeField] private float spellAttackRange;
     [SerializeField] private float colliderDistance;
     

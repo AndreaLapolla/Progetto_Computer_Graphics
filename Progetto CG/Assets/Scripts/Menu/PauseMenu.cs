@@ -4,15 +4,17 @@ using UnityEngine.SceneManagement;
 // classe per gestire il menu di pausa del gioco
 public class PauseMenu : MonoBehaviour
 {
-    public static bool GameIsPaused = false;
+    [Header("Game Objects")]
     public GameObject pauseMenuUI;
+    
+    private static bool _gameIsPaused;
 
     private void Update()
     {
         // esc è il tasto per la pausa
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GameIsPaused)
+            if (_gameIsPaused)
             {
                 // riprendi
                 Resume();
@@ -26,11 +28,11 @@ public class PauseMenu : MonoBehaviour
     }
 
     // funzione per far apparire il menu e fermare il tempo
-    public void Pause()
+    private void Pause()
     {
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GameIsPaused = true;
+        _gameIsPaused = true;
     }
 
     // funzione per chiudere il menu di pause e ripristinare lo scorrere del tempo
@@ -38,7 +40,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
-        GameIsPaused = false;
+        _gameIsPaused = false;
     }
 
     // funzione per tornare al menu principale

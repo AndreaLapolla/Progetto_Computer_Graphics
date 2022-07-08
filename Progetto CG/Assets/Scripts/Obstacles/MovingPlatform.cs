@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 // classe per gestire il movimento di una piattaforma, sia in verticale che in orizzontale

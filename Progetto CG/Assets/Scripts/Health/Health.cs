@@ -73,18 +73,12 @@ public class Health : MonoBehaviour
             }
         }
     }
-    
-    // funzione per restituire salute
-    public void AddHealth(float value)
-    {
-        CurrentHealth = Mathf.Min(CurrentHealth + value, startingHealth);
-    }
 
     // funzione per implementare il respawn del personaggio
     public void Respawn()
     {
         _dead = false;
-        AddHealth(startingHealth);
+        RefillHealth();
         _animator.ResetTrigger("die");
         _animator.Play(idleAnimationName);
         StartCoroutine(Invulnerability());

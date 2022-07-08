@@ -3,21 +3,24 @@ using UnityEngine;
 // classe per gestire i comportamenti fondamentali di un boss
 public class Boss : MonoBehaviour
 {
-    [Header("Character Selector")]
+    [Header("Game Objects")]
     [SerializeField] private GameObject characterSelector;
+    [SerializeField] private BoxCollider2D boxCollider2D;
+    [SerializeField] private LayerMask playerMask;
     
     [Header("Flip")]
     [SerializeField] private bool isFlipped;
 
-    [Header("Boss Melee Attack")] 
-    [SerializeField] private Vector3 attackOffset;
-    [SerializeField] private float attackRange = 2.9f;
+    [Header("Boss Melee Attack")]
+    [SerializeField] private float meleeAttackRange = 2.9f;
+    [SerializeField] private float colliderDistance;
     [SerializeField] private int meleeAttackDamage = 1;
-    [SerializeField] private LayerMask playerMask;
+    [SerializeField] private AudioClip meleeAttackSound;
     
     [Header("Spell Attack Parameters")]
     [SerializeField] private GameObject spell;
     [SerializeField] private int spellAttackDamage = 1;
+    [SerializeField] private AudioClip spellAttackSound;
     
     private Transform _playerTransform;
 
@@ -49,23 +52,33 @@ public class Boss : MonoBehaviour
     // funzione per gestire l'attacco in mischia, chiamato da animazione
     public void MeleeAttack()
     {
-        Vector3 position = transform.position;
-        position += transform.right * attackOffset.x;
-        position += transform.up * attackOffset.y;
-
-        Collider2D collider2DInfo = Physics2D.OverlapCircle(position, attackRange, playerMask);
-        if (collider2DInfo != null)
+        SoundManager.Instance.PlaySound(meleeAttackSound);
+        
+        RaycastHit2D hit2D = Physics2D.BoxCast(boxCollider2D.bounds.center - transform.right * 
+            meleeAttackRange * transform.localScale.x * colliderDistance, 
+            new Vector3(boxCollider2D.bounds.size.x * meleeAttackRange, boxCollider2D.bounds.size.y, 
+                boxCollider2D.bounds.size.z), 0, Vector2.left, 0, playerMask);
+        if (hit2D.collider != null)
         {
-            collider2DInfo.GetComponent<Health>().TakeDamage(meleeAttackDamage);
+            hit2D.transform.GetComponent<Health>().TakeDamage(meleeAttackDamage);
         }
     }
 
     // funzione per gestire l'attacco magico, chiamato da animazione
     public void CastSpell()
     {
+        SoundManager.Instance.PlaySound(spellAttackSound);
         spell.SetActive(true);
-        spell.transform.position = new Vector3(_playerTransform.position.x, _playerTransform.position.y + 1.8f, 
+        spell.transform.position = new Vector3(_playerTransform.position.x, _playerTransform.position.y + 1.7f, 
             spell.transform.position.z);
         spell.GetComponent<DeathBringerSpell>().SpellAttack(spellAttackDamage, playerMask);
+    }
+    
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(boxCollider2D.bounds.center - transform.right * meleeAttackRange * 
+            transform.localScale.x * colliderDistance, new Vector3(boxCollider2D.bounds.size.x * meleeAttackRange, 
+                boxCollider2D.bounds.size.y, boxCollider2D.bounds.size.z));
     }
 }

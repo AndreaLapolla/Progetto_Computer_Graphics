@@ -24,7 +24,7 @@ public class ArrowTrap : Trap
     private void Attack()
     {
         _cooldownTimer = 0;
-        SoundManager.Instance.PlaySound(trapSounds[0]);
+        SoundManager.Instance.PlaySound(trapSounds[0], 0.03f);
         arrows[FindArrow()].transform.position = firepoint.position;
         arrows[FindArrow()].GetComponent<EnemyProjectile>().ActivateProjectile();
     }

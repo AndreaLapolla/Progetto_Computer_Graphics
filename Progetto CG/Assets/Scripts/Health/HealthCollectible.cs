@@ -3,9 +3,6 @@ using UnityEngine;
 // classe per gestire gli oggetti curativi
 public class HealthCollectible : MonoBehaviour
 {
-    [Header("Collectible Healing Value")]
-    [SerializeField] private float healthValue;
-
     [Header("Sounds")] 
     [SerializeField] private AudioClip pickUpSound;
 
