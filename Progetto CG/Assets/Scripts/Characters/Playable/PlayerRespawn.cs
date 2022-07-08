@@ -30,6 +30,7 @@ public class PlayerRespawn : MonoBehaviour
             SoundManager.Instance.PlaySound(checkPointSound);
             col.GetComponent<Collider2D>().enabled = false;
             col.GetComponent<Animator>().SetTrigger("appear");
+            MessageText.Instance.WriteMessage("Checkpoint Raggiunto");
         }
     }
 }

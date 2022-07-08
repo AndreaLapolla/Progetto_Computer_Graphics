@@ -11,7 +11,6 @@ public class HealthCollectible : MonoBehaviour
         if (col.tag == "Player")
         {
             SoundManager.Instance.PlaySound(pickUpSound);
-            // col.GetComponent<Health>().AddHealth(healthValue);
             col.GetComponent<Health>().RefillHealth();
             gameObject.SetActive(false);
         }

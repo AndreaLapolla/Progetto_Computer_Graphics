@@ -4,20 +4,15 @@
     <list default="true" id="ee45e8e0-6615-479a-850b-c4240caa9045" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Progetto CG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/DeathBringerParent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Characters/Enemy/DeathBringerParent.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Collectibles/CheckPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Collectibles/CheckPoint.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Traps/ArrowTrap.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Livello_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/Boss.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/Boss.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDamage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/BossFightStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/Bosses/BossFightStarter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/PlayerRespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Playable/PlayerRespawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/LoadingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/LoadingManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/HealthCollectible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacles/MovingPlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacles/MovingPlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectiles/DeathBringerSpell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectiles/DeathBringerSpell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Traps/ArrowTrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +103,8 @@
       <workItem from="1657187762466" duration="223000" />
       <workItem from="1657200802518" duration="10702000" />
       <workItem from="1657267342397" duration="5930000" />
+      <workItem from="1657289439299" duration="1312000" />
+      <workItem from="1657292401245" duration="6083000" />
     </task>
     <servers />
   </component>

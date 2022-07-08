@@ -237,9 +237,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   meleeAttackRange: 3
-  meleeAttackCoolDown: 2
+  meleeAttackCoolDown: 1
   spellAttackRange: 7
-  spellAttackCoolDown: 3
+  spellAttackCoolDown: 2
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0

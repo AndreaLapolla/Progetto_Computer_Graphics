@@ -17,6 +17,7 @@ public class LoadingManager : MonoBehaviour
         {
             SoundManager.Instance.PlaySound(levelEndSound);
             StartCoroutine(EndLevel(1));
+            MessageText.Instance.WriteMessage("Livello completato");
         }
     }
 
@@ -24,14 +25,7 @@ public class LoadingManager : MonoBehaviour
     {
         var nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         yield return new WaitForSeconds(waitTime);
-        
-        if (nextSceneIndex <= MaxSceneIndex)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            SceneManager.LoadScene(0);
-        }
+
+        SceneManager.LoadScene(nextSceneIndex <= MaxSceneIndex ? nextSceneIndex : 0);
     }
 }
