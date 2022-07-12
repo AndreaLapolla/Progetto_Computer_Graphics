@@ -30,28 +30,56 @@ public class BossFightStarter : MonoBehaviour
 
     private void Update()
     {
-        if (!_battleStarted && SearchPlayerForFight())
+        var playerInArena = SearchPlayerForFight();
+
+        if (!playerInArena)
         {
-            // condizione inizio battaglia
-            StartBattle();
-        }
-        else if (_battleStarted && (_bossHealth.CurrentHealth == 0 || _playerHealth.CurrentHealth == 0))
-        {
-            // condizione battaglia terminata
+            print("giocatore non nell'arena");
             _battleStarted = false;
+            boss.SetActive(false);
             bossHealthBar.SetActive(false);
             bossFightAudioSource.SetActive(false);
             standardAudioSource.SetActive(true);
             leftWall.SetActive(false);
             rightWall.SetActive(false);
-            
-            if (_playerHealth.CurrentHealth == 0)
+        }
+        else
+        {
+            print("giocatore nell'arena");
+            if (!_battleStarted)
             {
-                boss.SetActive(false);
+                print("inizio battaglia");
+                // condizione inizio battaglia
+                _battleStarted = true;
+                boss.SetActive(true);
+                bossHealthBar.SetActive(true);
+                standardAudioSource.SetActive(false);
+                bossFightAudioSource.SetActive(true);
+                leftWall.SetActive(true);
+                rightWall.SetActive(true);
             }
-            if (_bossHealth.CurrentHealth == 0)
+            else
             {
-                gameObject.SetActive(false);
+                print("battaglia in corso");
+                if (_playerHealth.CurrentHealth == 0 || _bossHealth.CurrentHealth == 0)
+                {
+                    print("battaglia finita");
+                    // condizione battaglia terminata
+                    if (_playerHealth.CurrentHealth == 0)
+                    {
+                        print("morte personaggio");
+                        boss.SetActive(false);
+                    }
+                    if (_bossHealth.CurrentHealth == 0)
+                    {
+                        print("morte boss");
+                        gameObject.SetActive(false);
+                        _battleStarted = false;
+                        bossHealthBar.SetActive(false);
+                        bossFightAudioSource.SetActive(false);
+                        standardAudioSource.SetActive(true);
+                    }
+                }
             }
         }
     }
@@ -68,17 +96,6 @@ public class BossFightStarter : MonoBehaviour
         }
         
         return hit2D.collider != null;
-    }
-
-    private void StartBattle()
-    {
-        boss.SetActive(true);
-        bossHealthBar.SetActive(true);
-        standardAudioSource.SetActive(false);
-        bossFightAudioSource.SetActive(true);
-        leftWall.SetActive(true);
-        rightWall.SetActive(true);
-        _battleStarted = true;
     }
 
     private void OnDrawGizmos()
